@@ -36,7 +36,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            We aim to build innovative applications on salesforce platform and deliver exactly what the clients want
+            We aim to build innovative applications on salesforce platform and
+            deliver exactly what the clients want
           </p>
           <Button href="/pricing" white>
             Get started
@@ -71,7 +72,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="Salesforce India"
                   />
                 </ScrollParallax>
               </div>

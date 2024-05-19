@@ -25,9 +25,9 @@ import background from "./background.jpg";
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
-import appyfounder from "./appyCrownFounder.jpg"
+import appyfounder from "./appyCrownFounder.jpg";
 
-import appycrown from "./AppyCrown_Logo.png"
+import appycrown from "./AppyCrown_Logo.png";
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
@@ -54,12 +54,12 @@ import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
-import salef from "./salesforces.jpeg"
+import salef from "./salesforces.jpeg";
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
-import outsource from "./outsourcing.jpg"
+import outsource from "./outsourcing.jpg";
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
@@ -71,20 +71,24 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
-import consulting from "./consulting.jpg"
+import consulting from "./consulting.jpg";
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-import training from "./training.jpg"
-import webdev from "./webdev.jpg"
-import integrate from "./integrate.jpg"
+import training from "./training.jpg";
+import webdev from "./webdev.jpg";
+import integrate from "./integrate.jpg";
+import working from "./working.jpg";
+import peopleworking from "./peopleworking.jpg";
 export {
   brainwave,
   consulting,
   salef,
   training,
+  working,
+  peopleworking,
   webdev,
   integrate,
   appycrown,
