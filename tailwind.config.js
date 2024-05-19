@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],

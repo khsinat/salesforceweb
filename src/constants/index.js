@@ -37,6 +37,7 @@ import {
   training,
   twitter,
   webdev,
+  working,
   yourlogo,
 } from "../assets";
 
@@ -72,6 +73,17 @@ export const navigation = [
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
+  },
+
+  {
+    id: "6",
+    title: "Portfolio",
+    url: "/portfolio",
+  },
+  {
+    id: "7",
+    title: "Blogs",
+    url: "/blogs",
   },
 ];
 
@@ -252,7 +264,7 @@ export const benefits = [
     text: "We are a team of highly expertise and experience in Salesforce which has enabled us to implement and support various business use cases in the Sales, Service, Experience, and Marketing Clouds.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: working,
   },
   {
     id: "1",
@@ -260,7 +272,7 @@ export const benefits = [
     text: "Do you have an amazing idea that can fill the gap for specific business needs? We have a strong understanding of managing the complete application lifecycles on AppExchange.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: working,
     light: true,
   },
   {
@@ -269,7 +281,7 @@ export const benefits = [
     text: "Enable your team with new learning, skills, and adoption of on-demand technology. Let’s connect with our experts and certified Trainers.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: working,
   },
   {
     id: "3",
@@ -277,7 +289,7 @@ export const benefits = [
     text: "Let’s add diversity to your team by collaborating with our skilled professionals to enhance productivity.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: working,
     light: true,
   },
   {
@@ -286,7 +298,7 @@ export const benefits = [
     text: "We have structured our web designing packages to fit your needs, not just your budget. The most exceptional web design & development services that we offer, described below, is a breakdown of our service packages.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: working,
   },
   {
     id: "5",
@@ -294,7 +306,7 @@ export const benefits = [
     text: "Accelerate your hiring process by collaborating with our industry-proven interview experts.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: working,
   },
 ];
 
