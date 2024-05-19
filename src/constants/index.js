@@ -14,10 +14,12 @@ import {
   framer,
   homeSmile,
   instagram,
+  integrate,
   notification2,
   notification3,
   notification4,
   notion,
+  outsource,
   photoshop,
   plusSquare,
   protopie,
@@ -32,7 +34,9 @@ import {
   slack,
   sliders04,
   telegram,
+  training,
   twitter,
+  webdev,
   yourlogo,
 } from "../assets";
 
@@ -98,7 +102,7 @@ export const roadmap = [
     text: "Make web applications that scale and cater to the needs of the client",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: webdev,
     colorful: true,
   },
   {
@@ -107,7 +111,7 @@ export const roadmap = [
     text: "We can connect you with the people who are expert in their domains to help you with the problem",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap2,
+    imageUrl: outsource,
   },
   {
     id: "2",
@@ -115,7 +119,7 @@ export const roadmap = [
     text: "We train the people so as to help them excel in their careers and make them work towards a better future",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap3,
+    imageUrl: training,
   },
   {
     id: "3",
@@ -123,7 +127,7 @@ export const roadmap = [
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap4,
+    imageUrl: integrate,
   },
 ];
 

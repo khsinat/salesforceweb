@@ -77,7 +77,7 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Salesforce Consulting</h4>
+                <h4 className="h4 mb-4">AppyCrown Consulting</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                    
                 </p>
