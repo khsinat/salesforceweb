@@ -1,6 +1,13 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import {  service2, service3, check, appyfounder, consulting } from "../assets";
+import {
+  service2,
+  service3,
+  check,
+  appyfounder,
+  consulting,
+  peopleworking,
+} from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
@@ -35,7 +42,9 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Smartest guy</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                At AppyCrown Private Limited, we're proud to have Salesforce MVP Om Prakash as our Founder, CEO and Technical Architect in our team
+                At AppyCrown Private Limited, we're proud to have Salesforce MVP
+                Om Prakash as our Founder, CEO and Technical Architect in our
+                team
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -57,7 +66,7 @@ const Services = () => {
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src={service2}
+                  src={peopleworking}
                   className="h-full w-full object-cover"
                   width={630}
                   height={750}
@@ -68,7 +77,8 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">Web development</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                 We create beautiful websites that state of the art and cater to the needs of the client 
+                  We create beautiful websites that state of the art and cater
+                  to the needs of the client
                 </p>
               </div>
 
@@ -78,9 +88,7 @@ const Services = () => {
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">AppyCrown Consulting</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
-                   
-                </p>
+                <p className="body-2 mb-[2rem] text-n-3"></p>
 
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
